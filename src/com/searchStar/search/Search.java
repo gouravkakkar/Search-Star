@@ -60,7 +60,6 @@ public class Search {
 	            			    if(line!=null){
 	            			    	if(Pattern.compile(Pattern.quote(keyWord), Pattern.CASE_INSENSITIVE).matcher(line).find()){
 	            			    		fw.write("Found at location="+fileEntry.getAbsolutePath()+"\n");
-		            					System.out.println("Found at location="+fileEntry.getAbsolutePath());
 		            				}	
 	            			    }
 	            				
